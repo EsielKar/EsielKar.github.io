@@ -40,3 +40,40 @@ body {
 .python-color {
     background-color: #FFD43B
 }
+
+.javascript-color {
+    background-color: #F0DB4F
+}
+
+/* Typewriter animation*/
+.typewriter {
+	display: inline-block;
+}
+
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 3s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    border-right: 4px solid blue;
+    box-sizing: border-box;
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: blue; 
+    }
+}

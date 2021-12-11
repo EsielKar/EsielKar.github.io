@@ -3,7 +3,7 @@
 <!-- Version 0.0.4 -->
 
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <title>Esiel Kar</title>
@@ -16,7 +16,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
 </head>
 
 <body class="bg-light" data-bs-spy="scroll" data-bs-target="#navbar">
@@ -30,8 +30,8 @@
 
                     <select class="form-select form-select-sm my-auto border-0 bg-light" id="language-select"
                         aria-label=".form-select example" style="width: auto;" onchange="changePageLanguage(this.value)">
-                        <option value="EN" selected>English</option>
-                        <option value="ES">Español</option>
+                        <option value="EN">English</option>
+                        <option value="ES" selected>Español</option>
                     </select>
                 </div>
 
@@ -44,10 +44,10 @@
 
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                     <ul class="navbar-nav">
-                        <li class="nav-item m-2"><a class="nav-link" href="#scrollspyHome">Home</a></li>
-                        <li class="nav-item m-2"><a class="nav-link" href="#scrollspyAbout">About</a></li>
-                        <li class="nav-item m-2"><a class="nav-link" href="#scrollspyWorks">Works</a></li>
-                        <li class="nav-item m-2"><a href="#scrollspyContact" class="btn btn-primary">Contact</a></li>
+                        <li class="nav-item m-2"><a class="nav-link" href="#scrollspyHome">Inicio</a></li>
+                        <li class="nav-item m-2"><a class="nav-link" href="#scrollspyAbout">Acerca de</a></li>
+                        <li class="nav-item m-2"><a class="nav-link" href="#scrollspyWorks">Trabajos</a></li>
+                        <li class="nav-item m-2"><a href="#scrollspyContact" class="btn btn-primary">Contacto</a></li>
                     </ul>
                 </div>
             </div>
@@ -61,16 +61,14 @@
         <section class="container" id="scrollspyHome">
             <div class="row">
                 <div class="col-12 col-lg-6">
-                    <img class="img-fluid br-16" src="./img/Esiel-1.jpg" alt="Introduction">
+                    <img class="img-fluid br-16" src="../img/Esiel-1.jpg" alt="Introduction">
                 </div>
                 <div class="col-12 col-lg-6 align-self-center mt-3 my-lg-0">
-                    <p class="h2">Hello,</p>
+                    <p class="h2">Hola,</p>
                     <div class="typewriter">
-                        <p class="display-1 text-primary fw-bolder typewriter-text">I'm Esiel</p>
+                        <p class="display-1 text-primary fw-bolder typewriter-text">Soy Esiel</p>
                     </div>
-                    <p class="h1 fw-bold">Mobile & Full Stack Developer</p>
-
-                    
+                    <p class="h1 fw-bold">Desarrollador Móvil y Full Stack</p>
                 </div>
             </div>
         </section>
@@ -81,26 +79,25 @@
             <!-- About me-->
             <div class="row mt-5">
                 <div class="col-12 col-lg-6 align-self-center my-3 px-3 px-md-1">
-                    <p class="display-2 text-info fw-bolder">About me</p>
-                    <p class="lead"> My name is Esiel Kevin Arizmendi Ramirez, I'm from Acapulco, Guerrero, Mexico.
-                        Currently I'm coursing the 10<sup>th</sup> (and last) semester of Computer Science Engineering
-                        at
-                        the Benemerita Universidad Autonoma de Puebla.</p>
+                    <p class="display-2 text-info fw-bolder">Acerca de mi</p>
+                    <p class="lead">Mi nombre es Esiel Kevin Arizmendi Ramírez, soy de Acapulco, Guerrero, México.
+                        Actualmente estoy cursando el 10<sup>mo</sup> (y ultimo) semestre de la carrera de Ing. en Cs.
+                        de la Computación en la Benemérita Universidad Autónoma de Puebla.</p>
                     <p class="lead d-none d-md-inline">
-                        I'm passionate about mobile apps development and I encorage the use of UX/UI as well
-                        as the design patterns for any type of software.
+                        Me apasiona el desarrollo de aplicaciones móviles y soy alentador por el uso de UX/UI, así como
+                        también del uso de los patrones de diseño para cualquier tipo de programa.
 
                     </p>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <img class="img-fluid br-16" src="./img/Esiel-2.jpg" alt="Introduction">
+                    <img class="img-fluid br-16" src="../img/Esiel-2.jpg" alt="Introduction">
                 </div>
             </div>
 
             <!-- What I'm good at-->
             <div class="row mt-5">
                 <div class="col-12 mt-3">
-                    <p class="display-3 text-center fw-bolder">This is what I'm good at</p>
+                    <p class="display-3 text-center fw-bolder">Esto es en lo que soy bueno</p>
                 </div>
             </div>
             <div class="card p-3 br-16">
@@ -164,23 +161,24 @@
             <!-- My badges -->
             <div class="row mt-5">
                 <div class="col-12 mt-3">
-                    <p class="display-3 text-start fw-bolder">My badges</p>
+                    <p class="display-3 text-start fw-bolder">Mis insignias</p>
                 </div>
                 <div class="row px-3">
-                    <p class="lead">I received these two badges when I took an Android mobile apps development course.
-                        <span class="d-none d-md-inline">I learnt how to use Kotlin starting from the basics
-                            all through some advanced
-                            topics such as MVVM, AR, Firebase and so much more.</span>
+                    <p class="lead">Recibí estás dos insignias en un curso de desarollo de aplicaciones móviles con
+                        Android.
+                        <span class="d-none d-md-inline">Aprendí como usar el lenguaje de programación Kotlin,
+                            comenzando desde lo básico hasta algunos conceptos avanzados
+                            como el patrón MVVM, Realidad Aumentada, Firebase y mucho más.</span>
                     </p>
                 </div>
                 <div class="row justify-content-evenly">
                     <div class="col-6 col-sm-5 col-md-4 col-lg-3">
                         <a href="#" target="_blank"><img class="img-fluid"
-                                src="./img/desarrollo-movil-santander-universidades.png" alt="Desarrollo Móvil"></a>
+                                src="../img/desarrollo-movil-santander-universidades.png" alt="Desarrollo Móvil"></a>
                     </div>
                     <div class="col-6 col-sm-5 col-md-4 col-lg-3">
                         <a href="#" target="_blank"><img class="img-fluid"
-                                src="./img/prototype-desarrollo-movil-santander-universidades.png"
+                                src="../img/prototype-desarrollo-movil-santander-universidades.png"
                                 alt="Desarrollo Móvil"></a>
                     </div>
                 </div>
@@ -191,7 +189,7 @@
         <section class="container mt-5" id="scrollspyWorks">
             <div class="row">
                 <div class="col-12 my-3">
-                    <p class="display-3 text-start fw-bolder">Projects I've worked in</p>
+                    <p class="display-3 text-start fw-bolder">Proyectos en los que he trabajado</p>
                 </div>
             </div>
 
@@ -199,7 +197,7 @@
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 d-none d-md-flex">
                 <div class="col">
                     <div class="card br-16 h-100">
-                        <img src="./img/photo_default.png" class="card-img-top card-img-br-16 img-fluid" alt="...">
+                        <img src="../img/photo_default.png" class="card-img-top card-img-br-16 img-fluid" alt="...">
                         <div class="card-body">
                             <h5 class="card-title fw-bold">Califícame!</h5>
                             <h6><span class="badge rounded-pill kotlin-color me-1">Kotlin</span><span
@@ -217,7 +215,7 @@
 
                 <div class="col">
                     <div class="card br-16 h-100">
-                        <img src="./img/photo_default.png" class="card-img-top card-img-br-16 img-fluid" alt="...">
+                        <img src="../img/photo_default.png" class="card-img-top card-img-br-16 img-fluid" alt="...">
                         <div class="card-body">
                             <h5 class="card-title fw-bold">Califícame!</h5>
                             <h6><span class="badge rounded-pill dart-color">Dart/Flutter</span></h6>
@@ -234,7 +232,7 @@
 
                 <div class="col">
                     <div class="card br-16 h-100">
-                        <img src="./img/photo_default.png" class="card-img-top card-img-br-16 img-fluid" alt="...">
+                        <img src="../img/photo_default.png" class="card-img-top card-img-br-16 img-fluid" alt="...">
                         <div class="card-body">
                             <h5 class="card-title fw-bold">Inkos App</h5>
                             <h6><span class="badge rounded-pill dart-color">Dart/Flutter</span></h6>
@@ -251,9 +249,9 @@
 
                 <div class="col">
                     <div class="card br-16 h-100">
-                        <img src="./img/photo_default.png" class="card-img-top card-img-br-16 img-fluid" alt="...">
+                        <img src="../img/photo_default.png" class="card-img-top card-img-br-16 img-fluid" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title fw-bold">AI: Tic Tac Toe</h5>
+                            <h5 class="card-title fw-bold">IA: Tic Tac Toe (El Gato)</h5>
                             <h6><span class="badge rounded-pill java-color">Java</span></h6>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
@@ -267,9 +265,9 @@
 
                 <div class="col">
                     <div class="card br-16 h-100">
-                        <img src="./img/photo_default.png" class="card-img-top card-img-br-16 img-fluid" alt="...">
+                        <img src="../img/photo_default.png" class="card-img-top card-img-br-16 img-fluid" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title fw-bold">ANN: Wildfire detector</h5>
+                            <h5 class="card-title fw-bold">RNA: Detector de incedios forestales</h5>
                             <h6><span class="badge rounded-pill java-color me-1">Java</span><span
                                     class="badge rounded-pill python-color">Python</span></h6>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -284,7 +282,7 @@
 
                 <div class="col">
                     <div class="card br-16 h-100">
-                        <img src="./img/photo_default.png" class="card-img-top card-img-br-16 img-fluid" alt="...">
+                        <img src="../img/photo_default.png" class="card-img-top card-img-br-16 img-fluid" alt="...">
                         <div class="card-body">
                             <h5 class="card-title fw-bold">Network Cloud</h5>
                             <h6><span class="badge rounded-pill java-color">Java</span></h6>
@@ -320,7 +318,7 @@
 
                     <div class="carousel-item active">
                         <div class="card br-16 h-100">
-                            <img src="./img/photo_default.png" class="card-img-top card-img-br-16 img-fluid" alt="...">
+                            <img src="../img/photo_default.png" class="card-img-top card-img-br-16 img-fluid" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Project name</h5>
                                 <h6><span class="badge rounded-pill java-color">Java</span></h6>
@@ -338,7 +336,7 @@
 
                     <div class="carousel-item">
                         <div class="card br-16 h-100">
-                            <img src="./img/photo_default.png" class="card-img-top card-img-br-16 img-fluid" alt="...">
+                            <img src="../img/photo_default.png" class="card-img-top card-img-br-16 img-fluid" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Project name</h5>
                                 <h6><span class="badge rounded-pill java-color">Java</span></h6>
@@ -355,7 +353,7 @@
 
                     <div class="carousel-item">
                         <div class="card br-16 h-100">
-                            <img src="./img/photo_default.png" class="card-img-top card-img-br-16 img-fluid" alt="...">
+                            <img src="../img/photo_default.png" class="card-img-top card-img-br-16 img-fluid" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Project name</h5>
                                 <h6><span class="badge rounded-pill java-color">Java</span></h6>
@@ -372,7 +370,7 @@
 
                     <div class="carousel-item">
                         <div class="card br-16 h-100">
-                            <img src="./img/photo_default.png" class="card-img-top card-img-br-16 img-fluid" alt="...">
+                            <img src="../img/photo_default.png" class="card-img-top card-img-br-16 img-fluid" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Project name</h5>
                                 <h6><span class="badge rounded-pill java-color">Java</span></h6>
@@ -389,7 +387,7 @@
 
                     <div class="carousel-item">
                         <div class="card br-16 h-100">
-                            <img src="./img/photo_default.png" class="card-img-top card-img-br-16 img-fluid" alt="...">
+                            <img src="../img/photo_default.png" class="card-img-top card-img-br-16 img-fluid" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Project name</h5>
                                 <h6><span class="badge rounded-pill java-color">Java</span></h6>
@@ -407,17 +405,17 @@
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselDark" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+                    <span class="visually-hidden">Anterior</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselDark" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
+                    <span class="visually-hidden">Siguiente</span>
                 </button>
             </div>
 
             <div class="row text-center mt-5">
                 <div class="col">
-                    <a href="#" class="btn btn-outline-primary">See more projects and works</a>
+                    <a href="#" class="btn btn-outline-primary">Ver más proyectos y trabajos</a>
                 </div>
             </div>
         </section>
@@ -431,36 +429,37 @@
                             <fieldset>
                                 <legend
                                     class="display-3 text-center fw-bolder bg-primary text-light card-img-br-16 p-3">
-                                    Contact me</legend>
+                                    Contáctame</legend>
                                 <div class="card-body">
                                     <!-- Name input-->
 
                                     <div class="mb-3">
-                                        <label for="name" class="form-label">Name</label>
-                                        <input type="text" class="form-control" id="name" placeholder="Write your name">
+                                        <label for="name" class="form-label">Nombre</label>
+                                        <input type="text" class="form-control" id="name"
+                                            placeholder="Escribe tu nombre">
                                     </div>
 
                                     <!-- Email input-->
                                     <div class="mb-3">
-                                        <label class="col control-label" for="email">E-mail</label>
+                                        <label class="col control-label" for="email">Correo electrónico</label>
                                         <div class="input-group">
                                             <span class="input-group-text" id="email">@</span>
-                                            <input type="email" class="form-control" placeholder="name@example.com"
+                                            <input type="email" class="form-control" placeholder="nombre@ejemplo.com"
                                                 aria-label="Email" aria-describedby="email">
                                         </div>
                                     </div>
 
                                     <!-- Message body -->
                                     <div class="mb-3">
-                                        <label for="message" class="form-label">Message</label>
+                                        <label for="message" class="form-label">Mensaje</label>
                                         <textarea class="form-control" id="message" rows="3"
-                                            placeholder="Write your message here..."></textarea>
+                                            placeholder="Escribe tu mensaje aquí..."></textarea>
                                     </div>
 
                                     <!-- Form actions -->
                                     <div class="form-group">
                                         <div class="col text-end">
-                                            <button type="submit" class="btn btn-primary btn">Send</button>
+                                            <button type="submit" class="btn btn-primary btn">Enviar</button>
                                         </div>
                                     </div>
                                 </div>
@@ -475,7 +474,7 @@
     <!-- Footer -->
     <footer class="footer mt-auto py-4 bg-dark">
         <div class="container text-center">
-            <p class="h5 text-light">You can also find me on</p>
+            <p class="h5 text-light">También me puedes encontrar en</p>
             <section class="m-2">
                 <a class="btn btn-link btn-floating btn-lg text-light fs-3 mx-3"
                     href="https://www.facebook.com/esielkar" target="_blank" role="button"
@@ -489,14 +488,14 @@
                     href="https://www.linkedin.com/in/esiel-arizmendi-ramírez-a215701b9" target="_blank" role="button"
                     data-mdb-ripple-color="dark"><em class="bi-linkedin"></em></a>
             </section>
-            <span class="text-muted">Copyright &copy; All rights reserved 2021.</span>
+            <span class="text-muted">Copyright &copy; Todos los derechos reservados 2021.</span>
             <br class="d-md-none">
             <a href="mailto:esiel.kar@gmail.com">Esiel Kevin Arizmendi Ramirez </a>
         </div>
     </footer>
 
     <!-- Bootstrap JavaScript Libraries -->
-    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
         crossorigin="anonymous"></script>
