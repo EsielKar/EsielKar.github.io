@@ -1,0 +1,42 @@
+body {
+    font-family: 'Poppins';
+    margin-top: 80px;
+    position: relative;
+}
+
+.br-16 {
+    border-radius: 16pt;
+}
+
+.card-img-br-16 {
+    border-radius: 16pt 16pt 0pt 0pt;
+}
+
+.progress-height {
+    height: 20pt;
+}
+
+/* COLORS */
+.java-color {
+    background-color: #00758F
+}
+
+.dart-color {
+    background-color: #00A758
+}
+
+.kotlin-color {
+    background-color: #7f52ff
+}
+
+.swift-color {
+    background-color: #F05138
+}
+
+.sql-color {
+    background-color: #F29111
+}
+
+.python-color {
+    background-color: #FFD43B
+}
