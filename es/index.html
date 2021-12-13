@@ -1,6 +1,6 @@
 <!-- Esiel Kar Portfolio -->
 <!-- Last update: December 12th, 2021 -->
-<!-- Version 0.0.7 -->
+<!-- Version 0.0.8 -->
 
 <!doctype html>
 <html lang="es">
@@ -47,7 +47,7 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item m-2"><a class="nav-link" href="#scrollspyHome">Inicio</a></li>
-                        <li class="nav-item m-2"><a class="nav-link" href="#scrollspyAbout">Acerca de</a></li>
+                        <li class="nav-item m-2"><a class="nav-link" href="#scrollspyAbout">Sobre mi</a></li>
                         <li class="nav-item m-2"><a class="nav-link" href="#scrollspyWorks">Trabajos</a></li>
                         <li class="nav-item m-2"><a href="#scrollspyContact" class="btn btn-primary">Contacto</a></li>
                     </ul>
@@ -81,7 +81,7 @@
             <!-- About me-->
             <div class="row mt-5">
                 <div class="col-12 col-lg-6 align-self-center my-3 px-3 px-md-1">
-                    <p class="display-2 text-info fw-bolder">Acerca de mi</p>
+                    <p class="display-2 text-info fw-bolder">Sobre mi</p>
                     <p class="lead">Mi nombre es Esiel Kevin Arizmendi Ramírez, soy de Acapulco, Guerrero, México.
                         Actualmente estoy cursando el 10<sup>mo</sup> (y ultimo) semestre de la carrera de Ing. en Cs.
                         de la Computación en la Benemérita Universidad Autónoma de Puebla.</p>
@@ -337,8 +337,9 @@
                             <p class="text-muted">Última actualización: Junio 8, 2020</p>
                         </footer>
                     </div>
+                </article>
             </div>
-            </article>
+            
 
             <!-- Projects Carousel -->
             <div id="carouselDark" class="d-md-none carousel carousel-dark slide" data-bs-ride="carousel">
@@ -361,87 +362,142 @@
 
                     <div class="carousel-item active">
                         <div class="card br-16 h-100">
-                            <img src="../img/photo_default.png" class="card-img-top card-img-br-16 img-fluid" alt="...">
-                            <div class="card-body d-flex flex-column justify-content-between">
-                                <h5 class="card-title">Project name</h5>
-                                <h6><span class="badge rounded-pill java-color">Java</span></h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary mt-auto me-auto">Ver más</a>
-                            </div>
-                            <div class="card-footer">
-                                <p class="text-muted">Última actualización: </p>
+                            <img src="../img/photo_default.png" class="card-img-top card-img-br-16 img-fluid"
+                                alt="Califícame - Versión Kotlin">
+                            <section class="card-body d-flex flex-column justify-content-between">
+                                <header>
+                                    <h5 class="card-title fw-bold">Califícame!</h5>
+                                    <h6><span class="badge rounded-pill kotlin-color me-1">Kotlin</span>
+                                        <span class="badge rounded-pill java-color">Java</span>
+                                    </h6>
+                                </header>
+                                <div class="card-text">
+                                    <p>Califícame! es una aplicación nativa para android que le permite a los
+                                        usuarios ver y realizar reseñas, asi como consultar estadísticas de sus profesores.
+                                    </p>
+                                    <p>Utiliza firebase authentication, cloud messaging y crashlytics.</p>
+                                </div>
+                                <a href="https://github.com/HectorMCT/Calificame_Equipo9"
+                                    class="btn btn-primary justify-self-end">Ver más</a>
+                            </section>
+                            <footer class="card-footer">
+                                <p class="text-muted">Última actualización: Noviembre 9, 2021 </p>
+                            </footer>
+                        </div>
+                    </div>
 
-                            </div>
+                    <div class="carousel-item">
+                        <div class="card br-16 h-100">
+                            <img src="../img/photo_default.png" class="card-img-top card-img-br-16 img-fluid"
+                                alt="Inkos App">
+                            <section class="card-body d-flex flex-column justify-content-between">
+                                <header>
+                                    <h5 class="card-title fw-bold">Inkos App</h5>
+                                    <h6><span class="badge rounded-pill dart-color">Dart/Flutter</span></h6>
+                                </header>
+                                <div class="card-text">
+                                    <p>Inkos App es una aplicación para iOS y Android que le ofrece a
+                                        sus usuarios aprender inglés sin seguir una ruta de aprendizaje.</p>
+                                    <p>Utiliza firebase authentication y cloud firestore.</p>
+                                </div>
+                                <a href="#" class="btn btn-primary">Ver más</a>
+                            </section>
+                            <footer class="card-footer">
+                                <p class="text-muted">Última actualización: Mayo 19, 2021 </p>
+                            </footer>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="card br-16 h-100">
+                            <img src="../img/photo_default.png" class="card-img-top card-img-br-16 img-fluid"
+                                alt="Califícame - Dart/Flutter Version">
+                            <section class="card-body d-flex flex-column justify-content-between">
+                                <header>
+                                    <h5 class="card-title fw-bold">Califícame!</h5>
+                                    <h6><span class="badge rounded-pill dart-color">Dart/Flutter</span></h6>
+                                </header>
+                                <div class="card-text">
+                                    <p>Califícame! es una aplicación para iOS y Android que le permite a los usuarios
+                                        ver y realizar reseñas, asi como consultar estadísticas de sus profesores.</p>
+                                    <p>Utiliza firebase authentication y cloud firestore.</p>
+                                </div>
+                                <a href="#" class="btn btn-primary">Ver más</a>
+                            </section>
+                            <footer class="card-footer">
+                                <p class="text-muted">Última actualización: Abril 24, 2021 </p>
+                            </footer>
                         </div>
                     </div>
 
                     <div class="carousel-item">
                         <div class="card br-16 h-100">
                             <img src="../img/photo_default.png" class="card-img-top card-img-br-16 img-fluid" alt="...">
-                            <div class="card-body d-flex flex-column justify-content-between">
-                                <h5 class="card-title">Project name</h5>
-                                <h6><span class="badge rounded-pill java-color">Java</span></h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary mt-auto me-auto">Ver más</a>
-                            </div>
-                            <div class="card-footer">
-                                <p class="text-muted">Última actualización: </p>
-                            </div>
+                            <section class="card-body d-flex flex-column justify-content-between">
+                                <header>
+                                    <h5 class="card-title fw-bold">AI: Tic Tac Toe (El Gato)</h5>
+                                    <h6><span class="badge rounded-pill java-color">Java</span></h6>
+                                </header>
+    
+                                <div class="card-text">
+                                    <p>Sistema para la implementación de algoritmos de inteligencia artificial
+                                        para la resolución del juego del gato. El sistema fue creado utilizando 
+                                        patrones de diseño.</p>
+                                    <p><span class=" fw-bolder">Algoritmos: </span>Minimax<br><span
+                                            class="fw-bolder">Funciones heurísticas: </span> Simple y Óptima
+                                    </p>
+                                </div>
+                                <a href="#" class="btn btn-primary">Ver más</a>
+                            </section>
+                            <footer class="card-footer">
+                                <p class="text-muted">Última actualización: Octubre 9, 2021 </p>
+                            </footer>
                         </div>
                     </div>
 
                     <div class="carousel-item">
                         <div class="card br-16 h-100">
                             <img src="../img/photo_default.png" class="card-img-top card-img-br-16 img-fluid" alt="...">
-                            <div class="card-body d-flex flex-column justify-content-between">
-                                <h5 class="card-title">Project name</h5>
-                                <h6><span class="badge rounded-pill java-color">Java</span></h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary mt-auto me-auto">Ver más</a>
-                            </div>
-                            <div class="card-footer">
-                                <p class="text-muted">Última actualización: </p>
-                            </div>
+                            <section class="card-body d-flex flex-column justify-content-between">
+                                <header>
+                                    <h5 class="card-title fw-bold">Network Cloud</h5>
+                                    <h6><span class="badge rounded-pill java-color">Java</span></h6>
+                                </header>
+                                <div class="card-text">
+                                    <p>Sistema distribuido que le permite a todos los usuarios en una misma
+                                        red compartir y eliminar archivos de todas las computadoras conectadas
+                                        como si fuera local.</p>
+                                    <p>El sistema es tolerante a fallos, en el sentido de que si una
+                                        computadora se cae, el sistema debe seguir operando</p>
+                                </div>
+                                <a href="#" class="btn btn-primary">Ver más</a>
+                            </section>
+                            <footer class="card-footer">
+                                <p class="text-muted">Última actualización: Septiembre 30, 2020</p>
+                            </footer>
                         </div>
                     </div>
 
                     <div class="carousel-item">
                         <div class="card br-16 h-100">
                             <img src="../img/photo_default.png" class="card-img-top card-img-br-16 img-fluid" alt="...">
-                            <div class="card-body d-flex flex-column justify-content-between">
-                                <h5 class="card-title">Project name</h5>
-                                <h6><span class="badge rounded-pill java-color">Java</span></h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary mt-auto me-auto">Ver más</a>
-                            </div>
-                            <div class="card-footer">
-                                <p class="text-muted">Última actualización: </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="card br-16 h-100">
-                            <img src="../img/photo_default.png" class="card-img-top card-img-br-16 img-fluid" alt="...">
-                            <div class="card-body d-flex flex-column justify-content-between">
-                                <h5 class="card-title">Project name</h5>
-                                <h6><span class="badge rounded-pill java-color">Java</span></h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary mt-auto me-auto">Ver más</a>
-                            </div>
-                            <div class="card-footer">
-                                <p class="text-muted">Última actualización: </p>
-                            </div>
+                            <section class="card-body d-flex flex-column justify-content-between">
+                                <header>
+                                    <h5 class="card-title fw-bold">RNA: Detector de incedios forestales</h5>
+                                    <h6><span class="badge rounded-pill java-color me-1">Java</span><span
+                                            class="badge rounded-pill python-color">Python</span></h6>
+                                </header>
+                                <div class="card-text">
+                                    <p>Sistemas para la recopilación de información en imágenes de incendios
+                                        forestales (java y python). </p>
+                                    <p>Sistema para la búsqueda del mejor modelo de red neuronal artificial
+                                        con mejor resultado de precisión global, mediante un algoritmo genético (java).</p>
+                                </div>
+                                <a href="#" class="btn btn-primary">Ver más</a>
+                            </section>
+                            <footer class="card-footer">
+                                <p class="text-muted">Última actualización: Junio 8, 2020</p>
+                            </footer>
                         </div>
                     </div>
 
