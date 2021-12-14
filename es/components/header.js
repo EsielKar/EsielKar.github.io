@@ -15,8 +15,8 @@ customElements.define('esielkar-header',
                                 <select class="form-select form-select-sm my-auto border-0 bg-light" id="language-select"
                                     aria-label=".form-select example" style="width: auto;"
                                     onchange="changePageLanguage(this.value)">
-                                    <option value="EN" selected>English</option>
-                                    <option value="ES">Español</option>
+                                    <option value="EN">English</option>
+                                    <option value="ES" selected>Español</option>
                                 </select>
                             </div>
             
