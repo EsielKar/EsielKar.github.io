@@ -1,6 +1,6 @@
 <!-- Esiel Kar Portfolio -->
-<!-- Last update: December 12th, 2021 -->
-<!-- Version 0.0.8 -->
+<!-- Last update: December 13th, 2021 -->
+<!-- Version 0.0.9 -->
 
 <!doctype html>
 <html lang="es">
@@ -16,45 +16,17 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link rel="stylesheet" href="../css/styles.css" />
-    <script type="text/javascript" src="../js/script.js"></script>
+    
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script type="text/javascript" src="/js/script.js"></script>
+    <script type="text/javascript" src="components/header.js"></script>
+    <script type="text/javascript" src="components/footer.js"></script>
 </head>
 
 <body class="bg-light" data-bs-spy="scroll" data-bs-target="#navbar">
 
     <!-- Header/Navbar -->
-    <header class="header">
-        <nav class="navbar navbar-expand-md navbar-scroll navbar-light bg-light fixed-top" id="navbar">
-            <div class="container">
-                <div class="d-flex">
-                    <a class="navbar-brand" href="#top">Esiel Kar</a>
-
-                    <select class="form-select form-select-sm my-auto border-0 bg-light" id="language-select"
-                        aria-label=".form-select example" style="width: auto;"
-                        onchange="changePageLanguage(this.value)">
-                        <option value="EN">English</option>
-                        <option value="ES" selected>Español</option>
-                    </select>
-                </div>
-
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item m-2"><a class="nav-link" href="#scrollspyHome">Inicio</a></li>
-                        <li class="nav-item m-2"><a class="nav-link" href="#scrollspyAbout">Sobre mi</a></li>
-                        <li class="nav-item m-2"><a class="nav-link" href="#scrollspyWorks">Trabajos</a></li>
-                        <li class="nav-item m-2"><a href="#scrollspyContact" class="btn btn-primary">Contacto</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <esielkar-header></esielkar-header>
 
     <!-- Content -->
     <main role="main">
@@ -571,27 +543,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="footer mt-auto py-4 bg-dark">
-        <div class="container text-center">
-            <p class="h5 text-light">También me puedes encontrar en</p>
-            <section class="m-2">
-                <a class="btn btn-link btn-floating btn-lg text-light fs-3 mx-3"
-                    href="https://www.facebook.com/esielkar" target="_blank" role="button"
-                    data-mdb-ripple-color="dark"><em class="bi-facebook"></em></a>
-                <a class="btn btn-link btn-floating btn-lg text-light fs-3 mx-3"
-                    href="https://www.instagram.com/esielkar" target="_blank" role="button"
-                    data-mdb-ripple-color="dark"><em class="bi-instagram"></em></a>
-                <a class="btn btn-link btn-floating btn-lg text-light fs-3 mx-3" href="https://www.github.com/esielkar"
-                    target="_blank" role="button" data-mdb-ripple-color="dark"><em class="bi-github"></em></a>
-                <a class="btn btn-link btn-floating btn-lg text-light fs-3 mx-3"
-                    href="https://www.linkedin.com/in/esiel-arizmendi-ramírez-a215701b9" target="_blank" role="button"
-                    data-mdb-ripple-color="dark"><em class="bi-linkedin"></em></a>
-            </section>
-            <span class="text-muted">Copyright &copy; Todos los derechos reservados 2021.</span>
-            <br class="d-md-none">
-            <a href="mailto:esiel.kar@gmail.com">Esiel Kevin Arizmendi Ramirez </a>
-        </div>
-    </footer>
+    <esielkar-footer></esielkar-footer>
 
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
